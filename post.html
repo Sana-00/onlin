@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!--navigation-->
+    <nav>
+        <img src="./images/images.jfif" alt="" />
+        <div class="navigation">
+            <ul>
+                <i class="fas fa-times" id="menu-close"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn"
+                src="images/png-clipart-hamburger-button-hot-dog-computer-icons-pancake-hot-dog-share-icon-navbar-thumbnail.png"
+                alt="" />
+        </div>
+    </nav>
+    <!--Home-->
+
+
+    <section id="blogs-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b1.jpg" alt="" />
+                <h3>Learn Web Development In The Easiet Way</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut
+                    et in aperiam. Tenetur accusamus repellat dolore voluptates!
+                    Praesentium nesciunt quia voluptatibus rem reprehenderit voluptate,
+                    similique pariatur tenetur culpa dolore! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nobis odit, nihil ad ea blanditiis magni architecto reprehenderit voluptatum temporibus officia,
+                    omnis fuga voluptate, perspiciatis ipsa obcaecati sunt ex neque assumenda?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi,
+                    illo velit, reiciendis ducimus magnam tempore illum voluptatibus sunt voluptatem explicabo
+                    laudantium cumque eum? Beatae ipsam explicabo, nobis, soluta accusantium doloribus facere modi
+                    vitae,
+                    perferendis vero illum quaerat sequi placeat animi dicta cupiditate dolorum consequatur ipsum? Earum
+                    dolorem
+                    vitae rem?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat velit neque, reiciendis recusandae
+                    laudantium nesciunt magnam ipsum, illo blanditiis inventore repellendus obcaecati autem veniam nulla
+                    sequi quaerat voluptate exercitationem tempore doloremque non dolorem atque quasi vitae dolore? Vero
+                    consectetur beatae possimus laudantium recusandae? Aperiam beatae rem aliquam? Fugiat, fuga velit.
+                    Error consequuntur suscipit, eos nulla soluta ipsam iure perferendis! Nesciunt.
+                </p>
+                <br>
+                <a href="#">Read More</a>
+            </div>
+
+
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage repuation</li>
+            <li>Power Tool</li>
+            <li>Managed website</li>
+            <li>Marketing website</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quik Links</h3>
+            <li>Manage repuation</li>
+            <li>Power Tool</li>
+            <li>Managed website</li>
+            <li>Marketing website</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage repuation</li>
+            <li>Power Tool</li>
+            <li>Managed website</li>
+            <li>Marketing website</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Manage repuation</li>
+            <li>Power Tool</li>
+            <li>Managed website</li>
+            <li>Marketing website</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletters</h3>
+            <p>You can trust us. We can only promos offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your email address" />
+                <a href="" class="yellow">Subscribe</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+</body>
+
+</html>
